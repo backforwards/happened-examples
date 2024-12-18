@@ -1,4 +1,4 @@
-# This workflow uses actions that are not certified by GitHub.
+## This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support
 # documentation.
@@ -144,7 +144,7 @@
 #         name: GitHub scan ${{ github.sha }}
 #         restart_scan: ai3LG8DmVn9Rn1YeqCNRGQ
 #     - name: Get the output scan url
-#       run: echo "The scan was started on ${{ steps.start.outputs.url }}"
+       run: echo "The scan was started on ${{ steps.start.outputs.url }}"
 
 
 name: "NeuraLegion"
